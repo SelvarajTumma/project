@@ -1,0 +1,29 @@
+*{
+    margin: 1px;
+    padding: 2px;
+}
+.container{
+    display: flex;
+    overflow: hidden;
+}
+.logo{
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+}
+.title{
+    width: 60%;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.timer{
+    text-align: center;
+    width: 10%;
+    height: 100%;
+    overflow: hidden;
+    float: right;    
+}   
+.clockdiv{
+    display: grid;
+}

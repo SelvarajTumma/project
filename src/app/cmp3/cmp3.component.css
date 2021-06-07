@@ -1,0 +1,34 @@
+*{
+    margin: 4px;
+    padding: 5px;
+    text-decoration: none;
+    
+}
+#clic{
+    background-color: violet;
+    color:yellow;
+    padding: 1px;
+    text-align:start;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+#click1{
+    background-color: green;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+#unanswered{
+    background-color: blue;
+    border-radius: 3px;
+}
+button:focus{
+    background-color: green;
+    border-radius: 50%;
+}

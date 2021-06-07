@@ -1,0 +1,36 @@
+*{
+    margin: 4px;
+    padding: 4px;
+    position:static;
+}
+.cmp1{
+    width:100%;
+    height: 20%;
+    border: 2px solid red;
+    margin: 0px;
+}
+.viewport{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.cmp2{
+    width: 20%;
+    height: 100%;
+    margin: 0px;
+    border: 2px solid red;
+}
+.cmp3{
+    margin: 0px;
+    width: 20%;
+    height: 100%;
+    border: 2px solid red;
+    overflow: scroll;
+}
+.cmp4{
+    width: 60%;
+    margin: 0px;
+    height: 100%;
+    border: 2px solid red;
+}
