@@ -1,20 +1,11 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript">
-        
-    </script>
-    <title></title>
 </head>
 <body>
     <div class="container">
-        <div  *ngFor="let button of array">
-            <button class="one" [class.unanswered]="check===true" (click)="change($event)" id="clic"><a href="/cmp1">{{button}}</a></button>   
+        <div class="buttons"  *ngFor="let obj of array">
+            <button [ngClass]="{'question-number':obj.val==1,'check1':obj.val==2}" (click)="obj.val=2" ><a href="/cmp1">{{obj.id}}</a></button>   
         </div>
     </div>
-    
 </body>
 </html>

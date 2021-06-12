@@ -4,7 +4,7 @@
     text-decoration: none;
     
 }
-#clic{
+.one{
     background-color: violet;
     color:yellow;
     padding: 1px;
@@ -14,9 +14,7 @@
     width: 40px;
 }
 
-#click1{
-    background-color: green;
-}
+
 .container{
     display: flex;
     flex-direction: row;
@@ -28,7 +26,20 @@
     background-color: blue;
     border-radius: 3px;
 }
-button:focus{
-    background-color: green;
+.question-number{
+    
+    background-color: violet;
+    color:yellow;
+    padding: 1px;
+    text-align:start;
     border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    
 }
+.check1{
+    border-radius: 4px;
+    height: 35px;
+    width: 35px;
+}
+

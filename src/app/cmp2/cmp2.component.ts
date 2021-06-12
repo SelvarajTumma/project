@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-
 @Component({
   selector: 'app-cmp2',
   templateUrl: './cmp2.component.html',

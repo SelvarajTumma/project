@@ -7,3 +7,15 @@ body{
     padding: 0px;
     overflow: hidden;
 }
+.test-success{
+    border-radius: 8px;
+    background-color: aqua;
+}
+.test-danger{
+    border-radius: 2px;
+    background-color: red;
+}
+.test-special{
+    border-radius: 50%;
+    background-color: chocolate;
+}

@@ -1,4 +1,8 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { HtmlParser } from '@angular/compiler';
+import { ChangeDetectorRef, Component, Input, OnInit } from '@angular/core';
+import { MAT_BUTTON_TOGGLE_DEFAULT_OPTIONS } from '@angular/material';
+import { Button } from 'selenium-webdriver';
+
 
 @Component({
   selector: 'app-cmp3',
@@ -7,19 +11,23 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class Cmp3Component implements OnInit {
   n:number=200;
-  array:number[];
-  constructor() { }
-  change(this: any){
-    document.getElementById("clic").id="unanswered";
+  array:any[]; 
+  n1:number;
+  change1(n1:number){
+    n1=2;
+    console.log(n1);
+    return n1;
   } 
-  
+  constructor() { }
   ngOnInit() {
     this.array=[];
     for(let i=0;i<this.n;i++){
-      this.array[i]=i+1;
-    } 
-   
-   
+      let c={
+        id:i+1,
+        val:1
+      }
+      this.array.push(c);
+    }  
   } 
    
   
