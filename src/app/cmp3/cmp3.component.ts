@@ -10,13 +10,12 @@ import { Button } from 'selenium-webdriver';
   styleUrls: ['./cmp3.component.css']
 })
 export class Cmp3Component implements OnInit {
-  n:number=200;
+  n:number=20;
   array:any[]; 
-  n1:number;
-  change1(n1:number){
-    n1=2;
-    console.log(n1);
-    return n1;
+  change1(n1:any){
+    this.array[n1.id-1].val=2;
+    console.log(this.array[n1.id-1]);
+    console.log(this.array[n1.id-2]);
   } 
   constructor() { }
   ngOnInit() {
@@ -29,7 +28,4 @@ export class Cmp3Component implements OnInit {
       this.array.push(c);
     }  
   } 
-   
-  
- 
 }
