@@ -4,7 +4,7 @@
 <body>
     <div class="container">
         <div class="buttons"  *ngFor="let obj of array">
-            <button [ngClass]="{'question-number':obj.val==1,'check1':obj.val==2}" (click)="change1(obj)" ><a href="/cmp1">{{obj.id}}</a></button>   
+            <button [ngClass]="{'unanswered':obj.val==1,'check1':obj.val==2}" (click)="change1(obj)" routerLink="/cmp1">{{obj.id}}</button>   
         </div>
     </div>
 </body>

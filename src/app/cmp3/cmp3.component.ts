@@ -11,15 +11,12 @@ import { Button } from 'selenium-webdriver';
 })
 export class Cmp3Component implements OnInit {
   n:number=20;
-  array:any[]; 
+  array:any[]=[]; 
   change1(n1:any){
     this.array[n1.id-1].val=2;
-    console.log(this.array[n1.id-1]);
-    console.log(this.array[n1.id-2]);
   } 
   constructor() { }
   ngOnInit() {
-    this.array=[];
     for(let i=0;i<this.n;i++){
       let c={
         id:i+1,

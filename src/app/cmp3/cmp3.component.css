@@ -1,8 +1,7 @@
 *{
     margin: 4px;
     padding: 5px;
-    text-decoration: none;
-    
+    text-decoration: none;   
 }
 .one{
     background-color: violet;
@@ -13,32 +12,25 @@
     height: 40px;
     width: 40px;
 }
-
-
 .container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-
-
 #unanswered{
     background-color: blue;
     border-radius: 3px;
 }
-.question-number{
-    
-    background-color: violet;
-    color:yellow;
-    padding: 1px;
-    text-align:start;
-    border-radius: 50%;
+.unanswered{
+    background-color: grey;
+    border-radius: 4px;
     height: 35px;
-    width: 35px;
-    
+    width: 35px;    
 }
 .check1{
-    border-radius: 4px;
+    background-color: red;
+    color: beige;
+    border-radius: 50%;
     height: 35px;
     width: 35px;
 }
