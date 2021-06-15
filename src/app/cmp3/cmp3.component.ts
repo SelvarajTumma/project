@@ -18,11 +18,20 @@ export class Cmp3Component implements OnInit {
   constructor() { }
   ngOnInit() {
     for(let i=0;i<this.n;i++){
-      let c={
-        id:i+1,
-        val:1
+      if(i==0){
+        let d={
+          id:i+1,
+          val:2
+        };
+        this.array[0]=d;
       }
-      this.array.push(c);
+      else{
+        let c={
+          id:i+1,
+          val:1
+        }
+        this.array.push(c);
+      }
     }  
   } 
 }

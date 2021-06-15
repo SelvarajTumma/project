@@ -5,6 +5,9 @@ import { RouterModule,Routes } from '@angular/router';
 
 const route:Routes=[
   {
+    path:" ",component:Cmp4Component
+  },
+  {
     path:"cmp1",component:Cmp4Component
   }
 ]
